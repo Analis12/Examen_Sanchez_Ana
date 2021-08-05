@@ -1,0 +1,18 @@
+{
+    "data": [{
+            "nombre": "Cama",
+            "precio": 800,
+            "imagen": "producto2.jpg"
+        },
+        {
+            "nombre": "Mueble de Sala",
+            "precio": 1200,
+            "imagen": "producto1.jpg"
+        },
+        {
+            "nombre": "Comedor",
+            "precio": 950,
+            "imagen": "producto3.jpg"
+        }
+    ]
+}

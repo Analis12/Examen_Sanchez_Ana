@@ -1,0 +1,12 @@
+<section id="seccion_productos">
+            <div id="informacion_productos">
+              <p id="titulo">Revisa</p>
+              <h1>NUESTROS <br>PRODUCTOS</h1>
+              <p> Tenemos un amplia gama de productos, los mas destacados son las camas, muebles para sala, <br>comedores con precios variados segun el material y diseño del producto</p>
+              <button>INVENTARIO</button>
+            </div>
+            {{#each (getproductos)}}
+            <div id="productos"><img src="{{imagen}}" alt="producto1" height="150px" width="200px"><br> <br><strong>{{nombre}} </strong> <br> <br> Precio:{{precio}}$ </div>
+            {{/each}}
+
+</section>

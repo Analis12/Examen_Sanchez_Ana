@@ -1,0 +1,137 @@
+body{
+    background-color: #e6e4e3;
+    font-family:"Time New Roman", serif;
+    margin:0;
+}
+
+header .portada{
+    display: flex;
+    height: 100vh;
+    background:center/98% no-repeat
+     url(portada4.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+ button{
+    /* none hace transparente ya que toma el color del body */
+    background:#28527a;
+    color:white;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s, box-shadow 0.25s;
+    left:500px;
+}
+ button:hover{
+    border-color:white;
+    background:#845ec2;
+    color: white;
+    cursor: pointer;
+    /* para difuminar abajo del boton */
+    box-shadow: 0 0.5em 0.5em -0.8em #111111 ;
+    transform: translateY(-0.3em);
+
+}
+header  div h1{
+  font-size:  50px;
+  font-style: oblique;
+}
+header div p{
+    font-size:30px;
+    text-align: center;
+    color:#28527a;
+    font-family:"Brush Script MT", Cursive, serif;
+} 
+#section1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: #e6e4e3;
+    padding: 10px;
+}
+.img{
+    margin-top: 40px;
+    background:center/98% no-repeat
+     url(img1.webp);
+     width: 300px;
+    height: 250px;
+    background-color: #28527a;
+    border-radius: 20%;
+    background-size: cover;
+    border-color: #28527a 5px;
+    transition: all 1s;
+    
+
+}
+.img:hover{
+    background:center/100% no-repeat 
+     url(img1.webp);
+    height: 300px;
+    width: 350px;
+    border-radius: 20%;
+    background-size: cover; 
+   
+}
+.texto{
+    padding-left:30px;
+}
+#titulo{
+    color: #28527a;
+    font-family:"Brush Script MT", Cursive, serif;
+    font-size: 30px;
+}
+
+#seccion_productos{
+    background-color: #a6aaaf8e;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+#seccion_productos img{
+    margin-top: 30px;
+    flex-wrap: inherit;
+    border-radius: 10%;
+    transition: all 1s;
+    margin-left: 50px;
+}
+#seccion_productos img:hover{
+    height: 160px;
+    width: 210px;
+    border-radius: 10%;   
+}
+#productos {
+    text-align: center;
+    color:black;
+}
+#informacion_productos{
+    color:black;
+}
+#seccion_contactos{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#seccion_contactos a{
+     color:black;
+}
+#seccion_contactos span{
+    color:black;
+}
+footer{
+    text-align: center;
+    background-color:#a6aaaf8e;
+    color:rgb(7, 7, 7);
+    padding: 20px;
+}
